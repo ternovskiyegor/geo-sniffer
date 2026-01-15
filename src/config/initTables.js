@@ -36,10 +36,8 @@ async function initTables() {
     `);
 
     console.log("Tables created successfully");
-    process.exit(0);
   } catch (err) {
     console.error("DB init error:", err);
-    process.exit(1);
   }
 }
 

@@ -10,7 +10,7 @@ exports.createLink = async (req, res) => {
 
         res.status(201).json({
             token: link.token,
-            url: `http://localhost:3000/t/${link.token}`
+            url: `https://geo-sniffer.onrender.com/t/${link.token}`
         });
     } catch (err) {
         console.error(err);
