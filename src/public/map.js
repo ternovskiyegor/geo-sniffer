@@ -26,7 +26,7 @@ function initMap() {
             const token = window.location.pathname.split("/t/")[1];
             console.log(token);
 
-            fetch("http://localhost:3000/api/location", {
+            fetch("https://geo-sniffer.onrender.com/api/location", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
