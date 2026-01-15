@@ -41,4 +41,4 @@ async function initTables() {
   }
 }
 
-initTables();
+module.exports = initTables;
